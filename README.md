@@ -13,5 +13,5 @@ Also check out the [official high contrast theme](https://adventofcode.com/2022/
 1. Download the Stylus extension for CSS injection.
 [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) | [Opera](https://www.mozilla.org/firefox/new/)
 
-2. Click one of the links below and download the desired theme:
-- [Catppuccin Mocha](https://raw.githubusercontent.com/BurgundyDev/aoc-themes/main/aot-catppuccin-mocha.css)
+2. Click one of the links below and download the desired theme:     
+- [Catppuccin Mocha](https://github.com/BurgundyDev/aoc-themes/raw/main/aoc-catppuccin-mocha.user.css)
