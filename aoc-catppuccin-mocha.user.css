@@ -12,18 +12,18 @@
 
   :root {
     --font-size: 110%;
-    --color-background: #1e1e2e;
-    --color-background-code: #313244;
-    --color-text: #cccccc;
-    --color-text-dim: #cccccc33;
-    --color-text-header: #ffffff;
+    --color-background: #181825;
+    --color-background-code: #1e1e2e;
+    --color-text: #cdd6f4;
+    --color-text-dim: #cdd6f433;
+    --color-text-header: #cdd6f4;
     --color-text-emphasis: #f38ba8;
     --color-text-link: #cba6f7;
     --color-text-link-hover: #b4befe;
-    --color-text-code: #cccccc;
+    --color-text-code: #bac2de;
     --color-text-star: #f9e2af;
     --color-text-silver: #f5c2e7;
-    --color-border-code: #cccccc33;
+    --color-border-code: #11111b;
     --color-shadow-emphasis: #000000;
     --color-shadow-star: #f9e2afaa;
   }
