@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name           AoC Catppuccin Macchiato
+@name           AoC Catppuccin Frappé
 @namespace      github.com/BurgundyDev
-@version        1.0.1
-@description    A theme for Advent of Code, inspired by the dark falvour of catppuccin.
+@version        1.0.0
+@description    A theme for Advent of Code, inspired by the semi-dark falvour of catppuccin.
 @author         u/Mitchi86 + u/kap89
 ==/UserStyle== */
 
@@ -12,20 +12,20 @@
 
   :root {
     --font-size: 110%;
-    --color-background: #1e2030;
-    --color-background-code: #24273a;
-    --color-text: #cad3f5;
-    --color-text-dim: #cad3f533;
-    --color-text-header: #cad3f5;
-    --color-text-emphasis: #ed8796;
-    --color-text-link: #81c8be;
-    --color-text-link-hover: #99d1db;
-    --color-text-code: #b8c0e0;
-    --color-text-star: #eed49f;
-    --color-text-silver: #f5bde6;
-    --color-border-code: #939ab7;
+    --color-background: #292c3c;
+    --color-background-code: #303446;
+    --color-text: #c6d0f5;
+    --color-text-dim: #c6d0f533;
+    --color-text-header: #c6d0f5;
+    --color-text-emphasis: #e78284;
+    --color-text-link: #f4b8e4;
+    --color-text-link-hover: #eebebe;
+    --color-text-code: #b5bfe2;
+    --color-text-star: #e5c890;
+    --color-text-silver: #f4b8e4;
+    --color-border-code: #949cbb;
     --color-shadow-emphasis: #000000;
-    --color-shadow-star: #eed49faa;
+    --color-shadow-star: #e5c890aa;
   }
 
   body {
