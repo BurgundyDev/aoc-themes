@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name           AoC Gruvbox
 @namespace      github.com/BurgundyDev
-@version        1.0.1
+@version        1.0.2
 @description    A theme for Advent of Code, inspired by the gruvbox colourscheme.
 @author         u/Mitchi86 + u/kap89
 ==/UserStyle== */
 
 @-moz-document domain("adventofcode.com"){
     @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap&family=Roboto+Mono:wght@500&display=swap&text=0123456789()[]+-=/*%^");
-    @import url("https://fonts.googleapis.com/css?family=JetBrains+Mono:wght@400;700");
+    @import url("https://fonts.googleapis.com/css?family=Fira+Code:wght@400;700");
 
   :root {
     --font-size: 110%;
@@ -107,7 +107,7 @@
     border-radius: 0.2em;
     background: var(--color-background-code);
     border-color: var(--color-border-code);
-    font-family: "JetBrains Mono";
+    font-family: "Fira Code";
     color: var(--color-text-code);
     font-weight: 700;
   }
@@ -159,7 +159,7 @@
   .privboard-row,
   .leaderboard-entry {
     word-spacing: 0;
-    font-family: "JetBrains Mono";
+    font-family: "Fira Code";
   }
 
   .calendar span,
