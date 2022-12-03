@@ -15,3 +15,4 @@ Also check out the [official high contrast theme](https://adventofcode.com/2022/
 
 2. Click one of the links below and download the desired theme:     
 - [Catppuccin Mocha](https://github.com/BurgundyDev/aoc-themes/raw/main/aoc-catppuccin-mocha.user.css)
+- [Catppuccin Macchiato](https://github.com/BurgundyDev/aoc-themes/raw/main/aoc-catppuccin-macchiato.user.css)
