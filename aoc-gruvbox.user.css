@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           AoC Gruvbox
 @namespace      github.com/BurgundyDev
-@version        1.0.0
+@version        1.0.1
 @description    A theme for Advent of Code, inspired by the gruvbox colourscheme.
 @author         u/Mitchi86 + u/kap89
 ==/UserStyle== */
@@ -18,7 +18,7 @@
     --color-text-dim: #ebdbb233;
     --color-text-header: #ebdbb2;
     --color-text-emphasis: #cc241d;
-    --color-shadow-emphasis: #fb4934;
+    --color-shadow-emphasis: #fb493422;
     --color-text-link: #98971a;
     --color-text-link-hover: #b8bb26;
     --color-text-code: #fbf1c7;
