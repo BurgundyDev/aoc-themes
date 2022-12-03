@@ -1,0 +1,170 @@
+/* ==UserStyle==
+@name           AoC Gruvbox
+@namespace      github.com/BurgundyDev
+@version        1.0.0
+@description    A theme for Advent of Code, inspired by the gruvbox colourscheme.
+@author         u/Mitchi86 + u/kap89
+==/UserStyle== */
+
+@-moz-document domain("adventofcode.com"){
+    @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap&family=Roboto+Mono:wght@500&display=swap&text=0123456789()[]+-=/*%^");
+    @import url("https://fonts.googleapis.com/css?family=JetBrains+Mono:wght@400;700");
+
+  :root {
+    --font-size: 110%;
+    --color-background: #282828;
+    --color-background-code: #504945;
+    --color-text: #ebdbb2;
+    --color-text-dim: #ebdbb233;
+    --color-text-header: #ebdbb2;
+    --color-text-emphasis: #cc241d;
+    --color-shadow-emphasis: #fb4934;
+    --color-text-link: #98971a;
+    --color-text-link-hover: #b8bb26;
+    --color-text-code: #fbf1c7;
+    --color-text-star: #d79921;
+    --color-text-silver: #928374;
+    --color-border-code: #a89984;
+    --color-shadow-star: #fabd2f;
+  }
+
+  body {
+    font-family: "Roboto Mono", Ubuntu, system-ui;
+    padding: 1rem;
+    background: var(--color-background);
+    color: var(--color-text);
+    font-size: var(--font-size);
+    word-spacing: -0.2em;
+  }
+
+  h2 {
+    color: var(--color-text-header) !important;
+  }
+
+  p,
+  li {
+    line-height: 1.6em;
+  }
+
+  nav li {
+    line-height: 1em;
+  }
+
+  article em,
+  code em,
+  em code {
+    text-shadow: 0 0 5px var(--color-shadow-emphasis);
+    font-weight: bold;
+    color: var(--color-text-emphasis);
+  }
+
+  code {
+    padding: 0 0.2em;
+    margin: 0 0.2em;
+    color: var(--color-text-code);
+    background: var(--color-background-code);
+    border: solid 1px var(--color-border-code);
+    border-radius: 0.2em;
+    outline: none;
+  }
+
+  code::before {
+    display: none;
+  }
+
+  code em,
+  em code {
+    font-weight: bold;
+  }
+
+  a,
+  header h1 a,
+  header h1 span,
+  input[type="submit"],
+  .share {
+    color: var(--color-text-link);
+    text-shadow: none;
+  }
+
+  a:hover,
+  header h1 a:hover,
+  input[type="submit"]:hover {
+    color: var(--color-text-link-hover);
+    text-decoration: underline;
+  }
+
+  header h1 a,
+  header h1 span {
+    font-weight: bold;
+  }
+
+  pre code {
+    padding: 0.4em;
+  }
+
+  input[type="text"] {
+    padding: 0.4em;
+    border-radius: 0.2em;
+    background: var(--color-background-code);
+    border-color: var(--color-border-code);
+    font-family: "JetBrains Mono";
+    color: var(--color-text-code);
+    font-weight: 700;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  .star,
+  .star-count,
+  .day-success,
+  p .stats-both,
+  a .stats-both,
+  .supporter-badge,
+  .leaderboard-daydesc-both,
+  .privboard-star-both,
+  .calendar-mark-complete,
+  .calendar-mark-verycomplete {
+    color: var(--color-text-star) !important;
+    text-shadow: 0 0 5px var(--color-shadow-star) !important;
+  }
+
+  .sponsor-badge,
+  .leaderboard-daydesc-first,
+  .privboard-star-firstonly,
+  p .stats-firstonly,
+  a .stats-firstonly {
+    color: var(--color-text-silver);
+  }
+
+  .calendar a,
+  #calendar-countdown,
+  .calendar a .calendar-day,
+  .stats a {
+    color: var(--color-text);
+  }
+
+  .stats a:hover,
+  .calendar a:hover {
+    background: var(--color-background-code);
+    text-decoration: none;
+  }
+
+  pre,
+  code,
+  .calendar,
+  .stats,
+  .sponsor,
+  .privboard-row,
+  .leaderboard-entry {
+    word-spacing: 0;
+    font-family: "JetBrains Mono";
+  }
+
+  .calendar span,
+  .privboard-days > span,
+  .privboard-star-unlocked {
+    color: var(--color-text-dim);
+  }
+}

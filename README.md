@@ -19,3 +19,4 @@ Also check out the [official high contrast theme](https://adventofcode.com/2022/
 - [Catppuccin Frappé](https://github.com/BurgundyDev/aoc-themes/raw/main/aoc-catppuccin-frappe.user.css)
 - [Catppuccin Latte](https://github.com/BurgundyDev/aoc-themes/raw/main/aoc-catppuccin-latte.user.css)
 - [Dracula](https://github.com/BurgundyDev/aoc-themes/raw/main/aoc-dracula.user.css)
+- [Gruvbox](https://github.com/BurgundyDev/aoc-themes/raw/main/aoc-gruvbox.user.css)
