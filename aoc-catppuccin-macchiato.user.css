@@ -29,7 +29,7 @@
   }
 
   body {
-    font-family: "Roboto Mono", Ubuntu, system-ui;
+    font-family: Roboto Mono Regular, Ubuntu, system-ui;
     padding: 1rem;
     background: var(--color-background);
     color: var(--color-text);
